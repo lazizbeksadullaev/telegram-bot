@@ -2,6 +2,7 @@ from math import factorial
 import random
 
 from telebot import TeleBot
+import factorial
 
 
 TOKEN = '5142087260:AAEZRe6ZUP3Ng9vDiUoIF5PI7zEnJsFd1eQ'
@@ -17,6 +18,6 @@ def number_command_handler(message):
         natija = str(factorial(int(son)))
         bot.reply_to(message, natija)
     except:
-        bot.reply_to(message, 'Error')
+        bot.reply_to(message, 'Natija oplib bo\'lmaydi son kiritishda xatolik bo\'ldi')
 
 bot.polling()
