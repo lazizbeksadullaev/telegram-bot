@@ -2,7 +2,6 @@ from math import factorial
 import random
 
 from telebot import TeleBot
-import factorial
 
 
 TOKEN = '5142087260:AAEZRe6ZUP3Ng9vDiUoIF5PI7zEnJsFd1eQ'
